@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Logic Test</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style1.css">
+</head>
+<body class="background-page">
+  <!--Main Navbar-->
+  <header>
+    <nav class="main-navbar">
+      <h1>Are you smarter than 9th grader?</h1>
+    </nav>
+  </header>
+
+  <!--Main Page-->
+  <div class="parent">
+    <div class="form-center">
+      <section id="quiz">
+        <div class="question" id="questionList"></div>
+        <div class="options">
+          <ul id="optionList">
+            <li id="option1" onclick="answerClick(this)"></li>
+            <li id="option2" onclick="answerClick(this)"></li>
+            <li id="option3" onclick="answerClick(this)"></li>
+            <li id="option4" onclick="answerClick(this)"></li>
+          </ul>
+        </div>
+        <div class="score">
+          <div class="score-card">Score : <span id="scoreCard">0</span></div>
+        </div>
+      </section>
+    </div>  
+  </div>
+  
+  <!--Next / Reset Button-->
+  <footer>
+    <button type="button" class="btn2" onclick="nextClick()"><h6>Next</h6></button>
+    <button type="button" class="btn2"><a href="index.html"><h6>Reset</h6></a></button>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>render()</script>
+  <!-- <audio src=""></audio> -->
+</body>
+</html>

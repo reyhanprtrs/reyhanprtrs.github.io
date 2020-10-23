@@ -1,0 +1,147 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b2deec; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navbar {
+  background-color: #1b262c ;
+}
+
+.main-navbar h1 {
+  font-style: bold;
+  color: #b2deec;
+  text-align: center;
+  font-size: 1.75rem;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.form-center {
+  border: 5px solid #1b262c;
+  border-radius:20px;
+  padding: 5px;
+  width: 600px;
+  height: 350px;
+  margin: 80px auto;
+  background-image: url("img-noise-361x370.png");
+  letter-spacing: 0.1rem;
+}
+
+.question {
+  padding: 20px;
+  background-color: #1b262c;
+  width: auto;
+  border-radius: 20px;
+  color: #b2deec;
+  margin: 1px;
+  font-size: 1.1rem;
+  font-weight: 550;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.options ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.options ul li {
+  display: inline-block;
+  justify-content: center;
+  background-color: #b2deec; 
+  width: 47%;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 5px;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #1b262c;
+  box-shadow: 0px 3px 0px #184d47;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+.options ul li:hover {
+  color: #b2deec;
+  background-color: #1b262c;
+}
+
+.options ul li.correct {
+  background-color: #79d70f;
+  box-shadow: 0px 3px 0px #03a503;
+}
+
+.options ul li.wrong {
+  background-color: #fd5e53;
+  box-shadow: 0px 3px 0px #cb0b0b;
+}
+
+button {
+  border: 2px solid #1b262c;
+  background: url("img-noise-361x370.png");
+  padding: 0;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: #1b262c;
+  padding: 15px 20px;
+  background-color: rgba(61, 65, 73, 0.5);
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer {
+  right: 60px;
+  bottom: 40px;
+  position: relative;
+  float: right;
+}
+
+.btn2 {
+  font-size: 1.5rem;
+  margin-left:20px;
+  cursor: pointer;
+  box-shadow: 0px 3px 0px #1b262c;
+  outline: none;
+}
+
+.btn2 :hover {
+  background-color: #1b262c;
+  color: #b2deec;
+}
+
+.score {
+  float: left;
+  width: 100%;
+  padding: 60px 20px;
+}
+
+.score-card {
+  font-size: 20px;
+  color: black;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+span {
+  background-color: #1b262c;
+  padding: 5px 20px;
+  border-radius: 15px;
+  color: #b2deec;
+}
